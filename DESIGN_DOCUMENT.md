@@ -1,8 +1,8 @@
-# CartPilot: Multi-Agent System Design Document
+# AutoCartOS: Multi-Agent System Design Document
 
 ## 1. High-Level Architecture
 
-CartPilot is a deterministic multi-agent system that transforms high-level user goals into complete, validated product bundles. The system uses a controlled pipeline of six specialized agents, each with a single responsibility, operating on shared state. Agents communicate through structured JSON state updates rather than direct messaging, ensuring traceability and explainability. The architecture prioritizes rule-based logic over probabilistic reasoning, using LLMs only for natural language understanding and component planning. LangGraph orchestrates the agent execution flow, while FastAPI exposes the system as a REST API.
+AutoCartOS is a deterministic multi-agent system that transforms high-level user goals into complete, validated product bundles. The system uses a controlled pipeline of six specialized agents, each with a single responsibility, operating on shared state. Agents communicate through structured JSON state updates rather than direct messaging, ensuring traceability and explainability. The architecture prioritizes rule-based logic over probabilistic reasoning, using LLMs only for natural language understanding and component planning. LangGraph orchestrates the agent execution flow, while FastAPI exposes the system as a REST API.
 
 ```
 ┌─────────────┐
