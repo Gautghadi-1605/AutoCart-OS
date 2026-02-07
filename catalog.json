@@ -1,241 +1,2289 @@
 {
   "products": {
-    "monitor": [
+    "grainger": [
       {
-        "id": "mon_001",
-        "name": "Dell UltraSharp 27\" 4K Monitor",
-        "price": 399.99,
-        "category": "monitor",
-        "specs": {"resolution": "4K", "size": "27inch", "ports": ["hdmi", "usb_c"]},
-        "compatibility_tags": ["4k_monitor", "professional"]
+        "id": "hard-hats-and-helmets",
+        "name": "Hard Hats and Helmets - Grainger Industrial Supply",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
       },
       {
-        "id": "mon_002",
-        "name": "ASUS Gaming Monitor 24\" 1080p",
-        "price": 179.99,
-        "category": "monitor",
-        "specs": {"resolution": "1080p", "size": "24inch", "ports": ["hdmi"]},
-        "compatibility_tags": ["gaming_monitor", "1080p_monitor"]
-      }
-    ],
-    "keyboard": [
-      {
-        "id": "kb_001",
-        "name": "Logitech MX Keys for Mac",
-        "price": 99.99,
-        "category": "keyboard",
-        "specs": {"type": "wireless", "layout": "mac"},
-        "compatibility_tags": ["mac_keyboard", "wireless_keyboard"]
+        "id": "hard-hats-and-helmets?attrs=ANSI+Classification%7CType+1%2C+Class+C&filters=attrs",
+        "name": "Type 1, Class C Hard Hats and Helmets",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
       },
       {
-        "id": "kb_002",
-        "name": "Corsair K70 RGB Gaming Keyboard",
-        "price": 149.99,
-        "category": "keyboard",
-        "specs": {"type": "mechanical", "layout": "windows"},
-        "compatibility_tags": ["gaming_keyboard", "mechanical_keyboard", "windows_keyboard"]
+        "id": "HEXARMOR-Safety-Helmet-793PN3",
+        "name": "Safety Helmet",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
       },
       {
-        "id": "kb_003",
-        "name": "Microsoft Surface Keyboard",
-        "price": 79.99,
-        "category": "keyboard",
-        "specs": {"type": "wireless", "layout": "windows"},
-        "compatibility_tags": ["windows_keyboard", "wireless_keyboard"]
-      }
-    ],
-    "mouse": [
-      {
-        "id": "mouse_001",
-        "name": "Logitech MX Master 3 for Mac",
-        "price": 99.99,
-        "category": "mouse",
-        "specs": {"type": "wireless", "layout": "mac"},
-        "compatibility_tags": ["mac_mouse", "wireless_mouse"]
+        "id": "hard-hat-sun-shades-visors-fans?attrs=For+Use+With%7CSafety+Helmet&filters=attrs",
+        "name": "Safety Helmet Hard Hat Sun Shades, Visors & Fans",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
       },
       {
-        "id": "mouse_002",
-        "name": "Razer DeathAdder Gaming Mouse",
-        "price": 69.99,
-        "category": "mouse",
-        "specs": {"type": "wired", "layout": "windows"},
-        "compatibility_tags": ["gaming_mouse", "windows_mouse"]
+        "id": "safety-gloves",
+        "name": "Safety Gloves - Protective Work Gloves",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
       },
       {
-        "id": "mouse_003",
-        "name": "Microsoft Surface Mouse",
-        "price": 39.99,
-        "category": "mouse",
-        "specs": {"type": "wireless", "layout": "windows"},
-        "compatibility_tags": ["windows_mouse", "wireless_mouse"]
-      }
-    ],
-    "desk": [
-      {
-        "id": "desk_001",
-        "name": "IKEA BEKANT Desk 63x31",
-        "price": 199.99,
-        "category": "desk",
-        "specs": {"size": "63x31", "material": "particleboard"},
-        "compatibility_tags": []
-      }
-    ],
-    "chair": [
-      {
-        "id": "chair_001",
-        "name": "Herman Miller Aeron Chair",
-        "price": 1299.99,
-        "category": "chair",
-        "specs": {"ergonomic": true},
-        "compatibility_tags": []
+        "id": "electrical-insulating-gloves-protectors",
+        "name": "Electrical Gloves - High Voltage Hand Protection",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
       },
       {
-        "id": "chair_002",
-        "name": "IKEA MARKUS Office Chair",
-        "price": 199.99,
-        "category": "chair",
-        "specs": {"ergonomic": true},
-        "compatibility_tags": []
-      }
-    ],
-    "laptop": [
-      {
-        "id": "laptop_001",
-        "name": "MacBook Pro 14\" M3",
-        "price": 1999.99,
-        "category": "laptop",
-        "specs": {"os": "macos", "ports": ["usb_c", "thunderbolt"]},
-        "compatibility_tags": ["macbook"]
+        "id": "cut-resistant-gloves",
+        "name": "Cut-Resistant Gloves",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
       },
       {
-        "id": "laptop_002",
-        "name": "Dell XPS 15 Windows Laptop",
-        "price": 1499.99,
-        "category": "laptop",
-        "specs": {"os": "windows", "ports": ["usb_a", "hdmi"]},
-        "compatibility_tags": ["windows_laptop"]
-      }
-    ],
-    "monitor_stand": [
+        "id": "general-purpose-chemical-resistant-gloves",
+        "name": "General Purpose Chemical-Resistant Gloves",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
       {
-        "id": "stand_001",
-        "name": "VIVO Monitor Stand",
-        "price": 29.99,
-        "category": "monitor_stand",
-        "specs": {},
-        "compatibility_tags": []
-      }
-    ],
-    "hdmi_cable": [
+        "id": "blasting-cabinets?attrs=Includes%7CSafety+Gloves&filters=attrs",
+        "name": "Safety Gloves Abrasive Blast Cabinets",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
       {
-        "id": "hdmi_001",
-        "name": "Amazon Basics HDMI 2.1 Cable",
-        "price": 12.99,
-        "category": "hdmi_cable",
-        "specs": {"version": "2.1"},
-        "compatibility_tags": ["hdmi_2_1_cable"]
-      }
-    ],
-    "usb_cable": [
+        "id": "fire-extinguishers",
+        "name": "Fire Extinguishers - Grainger Industrial Supply",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
       {
-        "id": "usb_001",
-        "name": "USB-A to USB-C Cable",
-        "price": 9.99,
-        "category": "usb_cable",
-        "specs": {},
-        "compatibility_tags": []
-      }
-    ],
-    "laptop_stand": [
+        "id": "AMEREX-Fire-Extinguisher-5-lb-Extinguisher-3YWP1",
+        "name": "AMEREX, 5 lb Extinguisher Capacity, 2A:10B:C, Fire ...",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
       {
-        "id": "lstand_001",
-        "name": "Rain Design mStand Laptop Stand",
+        "id": "AMEREX-Fire-Extinguisher-30-lb-Extinguisher-55PW69",
+        "name": "AMEREX, 30 lb Extinguisher Capacity, 160B:C, Fire ...",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "BADGER-Fire-Extinguisher-5-lb-Extinguisher-36MA27",
+        "name": "BADGER, 5 lb Extinguisher Capacity, 3A:40B:C, Fire ...",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "kh-select-portable-fire-extinguishers",
+        "name": "How to Select Portable Fire Extinguishers",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "general-purpose-first-aid-kits",
+        "name": "General Purpose First Aid Kits",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "first-aid-kits",
+        "name": "First Aid Kits & Equipment",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "FIRST-AID-ONLY-First-Aid-Kit-and-Housing-40JH46",
+        "name": "Industrial, 25 People Served, First Aid Kit and Housing",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "FIRST-AID-ONLY-First-Aid-Kit-and-Housing-800T81",
+        "name": "Gen Purpose, 50 People Served, First Aid Kit and Housing",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "full-face-respirators",
+        "name": "Full-Face Respirators",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "half-mask-respirators",
+        "name": "Half-Mask Respirators",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "general-purpose-disposable-respirators-dust-masks",
+        "name": "General Purpose Disposable Respirators & Dust Masks",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "3M-Half-Mask-Respirator-7500-3PB41",
+        "name": "3M 7500 Half-Mask Respirator - 3PB41|7503",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "safety-goggles-accessories",
+        "name": "Safety Goggles & Accessories",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "standard-safety-goggles",
+        "name": "Standard Safety Goggles - Grainger Industrial Supply",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "3M-Safety-Goggles-Clear-Lens-475M56",
+        "name": "3M, Clear Lens Color, Scotchgard\u2122 Anti-Fog/Scratch- ...",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "SELLSTROM-Safety-Goggles-Clear-Lens-3NMZ2",
+        "name": "SELLSTROM, Clear Lens Color, Anti-Fog, Safety Goggles",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "CONDOR-Safety-Goggles-Clear-Lens-1FYZ3",
+        "name": "CONDOR Safety Goggles: Clear Lens Color, Scratch- ...",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "hearing-protection",
+        "name": "Hearing Protection",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "earmuffs",
+        "name": "Safety Earmuffs - Grainger Industrial Supply",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "noise-reducing-communication-headsets-earplugs",
+        "name": "Noise-Reducing Communication Headsets & Earplugs",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "kh-active-vs-passive-hearing-protection-differences",
+        "name": "Active vs. Passive Hearing Protection: What's the Difference?",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "kh-earplugs-vs-earmuffs",
+        "name": "Earplugs vs. Earmuffs: Choosing the Right Hearing ...",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "safety-harnesses-for-general-fall-arrest",
+        "name": "Safety Harnesses for General Fall Arrest",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "fall-protection-harnesses-body-belts?brandName=MSA&filters=brandName",
+        "name": "MSA Fall Protection Harnesses & Body Belts",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "kh-osha-fall-protection-defense-guide-130-qt",
+        "name": "Fall Protection Equipment Guide",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "fall-protection",
+        "name": "Fall Protection - Grainger Industrial Supply",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "lockout-tagout",
+        "name": "Lockout Tagout (LOTO) Devices",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "lockout-stations-kits",
+        "name": "Lockout Stations & Kits",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "STOPOUT-Lockout-Tagout-Kit-Keyed-Different-45KY18",
+        "name": "STOPOUT Lockout/Tagout Kit: Keyed Different Padlocks",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "lockout-tagout?brandName=BRADY&filters=brandName",
+        "name": "BRADY Lockout Tagout (LOTO) Devices",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "gas-detection",
+        "name": "Gas Leak Detectors and Gas Monitors",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "portable-gas-detectors",
+        "name": "Portable Gas Detectors - Grainger Industrial Supply",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "combustible-gas-detectors-kits",
+        "name": "Combustible Gas Detectors & Kits",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "BW-TECHNOLOGIES-Multi-Gas-Detector-23N332",
+        "name": "Multi-Gas Detector, 4 Gas, North America",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "fixed-gas-detection",
+        "name": "Fixed Gas Detection - Grainger Industrial Supply",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "safety-alarms-warning-lights",
+        "name": "Safety Alarms & Warning Lights - Grainger Industrial Supply",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "SAFETY-TECHNOLOGY-INTERNATIONAL-Personal-Protection-Alarm-16D859",
+        "name": "SAFETY TECHNOLOGY INTERNATIONAL, Audible and ...",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "alarm-systems-for-eyewash-equipment-safety-showers",
+        "name": "Alarm Systems for Eyewash Equipment & Safety Showers",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "audible-alarms",
+        "name": "Audible Alarms - Grainger Industrial Supply",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "security-alarms-warnings",
+        "name": "Security Alarms & Warnings",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "sorbents-spill-kits",
+        "name": "Sorbents & Spill Kits - Grainger Industrial Supply",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "biohazardous-liquid-bodily-fluid-spill-kits",
+        "name": "Biohazardous Liquid & Bodily Fluid Spill Kits",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "universal-spill-kits",
+        "name": "Universal Spill Kits - Grainger Industrial Supply",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "sorbent-spill-kit-accessories",
+        "name": "Sorbent & Spill Kit Accessories",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "video-surveillance",
+        "name": "Video Surveillance Cameras & Systems",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "wireless-video-cameras",
+        "name": "Wireless Video Cameras - Grainger Industrial Supply",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "digital-video-cameras-dummy-surveillance-cameras",
+        "name": "Digital Video Cameras & Dummy Surveillance Cameras",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "RING-Spotlight-Camera-Floodlight-812FZ2",
+        "name": "RING, Floodlight Security Camera, 2.4 GHz/5 ...",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "video-surveillance-monitors",
+        "name": "Video Surveillance Monitors",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "walk-through-metal-detectors",
+        "name": "Walk-Through Metal Detectors",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "metal-detectors-scanners-accessories",
+        "name": "Metal Detectors, Scanners & Accessories",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "GARRETT-METAL-DETECTORS-Walk-Through-Metal-Detector-53DU73",
+        "name": "PD 6500i, 33 Zones, Walk-Through Metal Detector",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "METAL-DEFENDER-Walk-Through-Metal-Detector-48WK71",
+        "name": "Metal Defender, 6 Zones, Walk-Through Metal Detector",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "CEIA-Walk-Through-Metal-Detector-329FJ1",
+        "name": "CEIA, Walk-Through Metal Detector - 329FJ1",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "security-safes",
+        "name": "Security Safes - Wall & Floor Safes",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "safes",
+        "name": "Security Safes - Grainger Industrial Supply",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "SENTRY-SAFE-Safe-Mechanical-Combo-Lock-32RT41",
+        "name": "Mechanical Combo Lock, 2 cu ft Capacity, Safe - 32RT41",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "HONEYWELL-Safe-Key-Lock-52HM62",
+        "name": "Key Lock, 1.24 cu ft Capacity, Safe - 52HM62|2105",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "keyless-access-locksets",
+        "name": "Keyless Access Locksets",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "keyless-access-locksets?brandName=TRILOGY+BY+ALARM+LOCK&filters=brandName",
+        "name": "TRILOGY BY ALARM LOCK Keyless Access Locksets",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "PRODATAKEY-Door-Controller-Access-Control-829CF3",
+        "name": "PRODATAKEY, Access Control, Door Controller - 829CF3|R4",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "keyless-access-locksets?brandName=SIMPLEX&filters=brandName",
+        "name": "SIMPLEX Keyless Access Locksets",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "SECURITY-DOOR-CONTROLS-Electronic-Keyless-Lock-Non-60HZ24",
+        "name": "SECURITY DOOR CONTROLS Electronic Keyless Lock ...",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "locks",
+        "name": "Locks - Padlocks and Security Locks",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "locks",
+        "name": "Product Configuration: Custom Safety Locks",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "security?brandName=MASTER+LOCK&filters=brandName",
+        "name": "MASTER LOCK Security Equipment and Products",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "combination-padlocks?attrs=Security+Level%7CHigh+Security&filters=attrs",
+        "name": "High Security Combination Padlocks",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "MASTER-LOCK-Luggage-Padlocks-Gen-Security-38W808",
+        "name": "Gen Security, MASTER LOCK, Luggage Padlocks - 38W808",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "folding-security-gates",
+        "name": "Folding Security Gates",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "folding-security-gates?attrs=Expanded+Width+-+Maximum%7C8+ft&filters=attrs",
+        "name": "8 ft Folding Security Gates",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "turnstiles-swing-gates",
+        "name": "Turnstiles & Swing Gates - Security",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "mezzanine-gates",
+        "name": "Mezzanine Gates - Grainger Industrial Supply",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "self-closing-safety-gates?brandName=COTTERMAN&filters=brandName",
+        "name": "COTTERMAN Self-Closing Safety Gates",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "hammers",
+        "name": "Hammers - Grainger Industrial Supply",
         "price": 59.99,
-        "category": "laptop_stand",
-        "specs": {},
-        "compatibility_tags": []
-      }
-    ],
-    "external_keyboard": [
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
       {
-        "id": "ext_kb_001",
-        "name": "Logitech MX Keys",
-        "price": 99.99,
-        "category": "external_keyboard",
-        "specs": {"type": "wireless"},
-        "compatibility_tags": ["wireless_keyboard"]
-      }
-    ],
-    "external_mouse": [
+        "id": "WESTWARD-Hammer-Fiberglass-45RC17",
+        "name": "Fiberglass, Steel, Hammer - 45RC17",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
       {
-        "id": "ext_mouse_001",
-        "name": "Logitech MX Master 3",
-        "price": 99.99,
-        "category": "external_mouse",
-        "specs": {"type": "wireless"},
-        "compatibility_tags": ["wireless_mouse"]
-      }
-    ],
-    "usb_c_adapter": [
+        "id": "NUPLA-Steel-Engineering-Hammer-Fiberglass-48TE25",
+        "name": "Fiberglass Handle, 3 lb Head Wt, Steel Engineering Hammer",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
       {
-        "id": "adapter_001",
-        "name": "USB-C to USB-A Adapter",
-        "price": 14.99,
-        "category": "usb_c_adapter",
-        "specs": {},
-        "compatibility_tags": []
-      }
-    ],
-    "docking_station": [
+        "id": "kh-types-hammers",
+        "name": "Types of Hammers and Their Uses - Grainger KnowHow",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
       {
-        "id": "dock_001",
-        "name": "CalDigit TS3 Plus Thunderbolt Dock",
+        "id": "claw-framing-hammers",
+        "name": "Claw & Framing Hammers",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "screwdriver-sets",
+        "name": "Screwdriver Sets - Grainger Industrial Supply",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "screwdrivers",
+        "name": "Screwdrivers - Grainger Industrial Supply",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "slotted-screwdrivers",
+        "name": "Slotted Screwdrivers",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "multi-bit-screwdrivers",
+        "name": "Multi-Bit Screwdrivers",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "cordless-screwdrivers-guns",
+        "name": "Cordless Screwdrivers & Guns",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "pliers",
+        "name": "Pliers - Grainger Industrial Supply",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "long-nose-pliers-sets",
+        "name": "Needle Nose - Long Nose Pliers & Sets",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "assorted-pliers-sets",
+        "name": "Assorted Pliers Sets - Grainger Industrial Supply",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "specialty-use-pliers",
+        "name": "Specialty Use Pliers",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "wrenches",
+        "name": "Wrenches and Wrench Sets",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "spanner-wrenches",
+        "name": "Spanner Wrenches - Grainger Industrial Supply",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "ratcheting-combination-wrench-sets",
+        "name": "Ratcheting Combination Wrench Sets",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "adjustable-wrenches-sets",
+        "name": "Adjustable Wrenches & Sets",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "open-end-wrench-sets",
+        "name": "Open End Wrench Sets",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "drills-drivers",
+        "name": "Power Drills & Drivers",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "corded-pistol-grip-drills",
+        "name": "Corded Pistol-Grip Drills",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "DEWALT-Electric-Drill-4KV41",
+        "name": "Electric Drill, 3/4 in Chuck Size",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "cordless-hammer-drills",
+        "name": "Cordless Hammer Drills",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "cordless-pistol-grip-drills",
+        "name": "Cordless Pistol-Grip Drills",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "angle-grinders",
+        "name": "Angle Grinders - Grainger Industrial Supply",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "corded-angle-grinders",
+        "name": "Corded Angle Grinders - Grainger Industrial Supply",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "3M-Angle-Grinder-889TN8",
+        "name": "Angle Grinder",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "cordless-angle-grinders",
+        "name": "Cordless Angle Grinders - Grainger Industrial Supply",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "corded-angle-grinders?attrs=Head+Type%7CFlathead&filters=attrs",
+        "name": "Flathead Corded Angle Grinders",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "circular-saws",
+        "name": "Circular Saws and Accessories",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "corded-circular-saws",
+        "name": "Corded Circular Saws",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "cordless-circular-saws",
+        "name": "Cordless Circular Saws",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "SKILSAW-Circular-Saw-8-in-Blade-Dia-48KR93",
+        "name": "SKILSAW, 8 in Blade Dia., 15 A Current, Circular Saw",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "SKILSAW-Circular-Saw-10-1-4-in-Blade-48XY45",
+        "name": "SKILSAW, 10 1/4 in Blade Dia., 15 A Current, Circular Saw",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "tool-cabinets-chests-carts",
+        "name": "Tool Cabinets, Chests & Carts",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "portable-tool-boxes-cases",
+        "name": "Portable Tool Boxes & Cases",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "rolling-tool-cabinets?brandName=PROTO&filters=brandName",
+        "name": "PROTO Rolling Tool Cabinets and Boxes",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "jobsite-boxes-cabinets",
+        "name": "Jobsite Boxes & Cabinets - Grainger Industrial Supply",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "sockets-sets",
+        "name": "Sockets & Sets - Grainger Industrial Supply",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "hand-socket-sets",
+        "name": "Hand Socket Sets - Grainger Industrial Supply",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "pass-through-hand-socket-sets",
+        "name": "Pass-Through Hand Socket Sets",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "all-purpose-socket-sets?attrs=Measurement+Type%7CMetric&filters=attrs",
+        "name": "Metric General Purpose Hand Socket Sets",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "drill-bits",
+        "name": "Drill Bits",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "drill-bit-sets",
+        "name": "Drill Bit Sets - Grainger Industrial Supply",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "impact-drill-bits",
+        "name": "Impact Drill Bits - Grainger Industrial Supply",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "drill-bits-for-masonry-concrete?brandName=WESTWARD&filters=brandName",
+        "name": "WESTWARD Masonry and Concrete Drill Bits",
+        "price": 59.99,
+        "category": "tools",
+        "specs": {
+          "material": "steel"
+        },
+        "compatibility_tags": [
+          "hand_tool"
+        ]
+      },
+      {
+        "id": "digital-multimeters",
+        "name": "Digital Multimeters - Grainger Industrial Supply",
         "price": 249.99,
-        "category": "docking_station",
-        "specs": {"type": "thunderbolt"},
-        "compatibility_tags": ["thunderbolt_dock"]
-      }
-    ],
-    "webcam": [
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
       {
-        "id": "webcam_001",
-        "name": "Logitech C920 HD Webcam",
-        "price": 79.99,
-        "category": "webcam",
-        "specs": {"resolution": "1080p"},
-        "compatibility_tags": []
-      }
-    ],
-    "speakers": [
-      {
-        "id": "speaker_001",
-        "name": "Audioengine A2+ Speakers",
+        "id": "FLUKE-Digital-Multimeter-CAT-III-55NR56",
+        "name": "FLUKE CAT III 600V Digital Multimeter - 55NR56",
         "price": 249.99,
-        "category": "speakers",
-        "specs": {},
-        "compatibility_tags": []
-      }
-    ],
-    "audio_cable": [
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
       {
-        "id": "audio_001",
-        "name": "3.5mm Audio Cable",
-        "price": 7.99,
-        "category": "audio_cable",
-        "specs": {},
-        "compatibility_tags": []
-      }
-    ],
-    "gaming_headset": [
+        "id": "FLUKE-Digital-Multimeter-CAT-III-1EVC6",
+        "name": "CAT IV 600V Digital Multimeter - 1EVC6|FLUKE-287",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
       {
-        "id": "headset_001",
-        "name": "SteelSeries Arctis 7 Gaming Headset",
-        "price": 149.99,
-        "category": "gaming_headset",
-        "specs": {},
-        "compatibility_tags": []
+        "id": "FLUKE-Digital-Multimeter-CAT-III-6MR05",
+        "name": "FLUKE CAT III 1000V; CAT IV 600V Digital Multimeter",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "multimeters",
+        "name": "Multimeters - Grainger Industrial Supply",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "clamp-meters",
+        "name": "Clamp Meters - Grainger Industrial Supply",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "FLUKE-Digital-Clamp-Meter-Clamp-6FXH3",
+        "name": "FLUKE, Clamp-Jaw Jaw, CAT III 1000V/CAT IV 600V ...",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "digital-clamp-meters",
+        "name": "Digital Clamp Meters - Grainger Industrial Supply",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "FLUKE-Digital-Clamp-Meter-Clamp-825MX2",
+        "name": "FLUKE, Clamp-Jaw Jaw, CAT III 600V, Digital Clamp Meter",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "digital-clamp-meters?brandName=WESTWARD&filters=brandName",
+        "name": "WESTWARD Digital Clamp Meters",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "FLUKE-Compact-Handheld-Oscilloscope-48JP67",
+        "name": "FLUKE, Compact Digital Oscilloscopes, Fully Isolated ...",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "FLUKE-Digital-Oscilloscope-Portable-780AY5",
+        "name": "FLUKE, Portable Handheld Digital Oscilloscopes, Fully ...",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "portable-digital-oscilloscopes-motor-drive-analyzers",
+        "name": "Portable Digital Oscilloscopes & Motor Drive Analyzers",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "FLUKE-Handheld-Oscilloscope-Portable-806NJ4",
+        "name": "FLUKE, Portable Handheld Digital Oscilloscopes, Fully ...",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "oscilloscope-probes-probe-kits",
+        "name": "Oscilloscope Probes & Probe Kits",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "FLIR-Thermal-Camera-FLIR-TG165-60PT93",
+        "name": "FLIR, FLIR TG165-X, Thermal Imaging, Thermal Camera",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "handheld-infrared-cameras",
+        "name": "Handheld Infrared Cameras - Grainger Industrial Supply",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "FLIR-Thermal-Camera-54-x-42-56HR68",
+        "name": "FLIR Thermal Camera: 54\u00b0 x 42\u00b0, USB/Wireless, 640 x 480, ...",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "FLIR-Thermal-Camera-53-6-60PT91",
+        "name": "FLIR Thermal Camera: 53.6\u00b0, USB/Wireless, 640 x 480, ...",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "kh-thermal-imaging-industrial-preventative-maintenance",
+        "name": "Thermal Imaging for Preventive and Predictive Maintenance",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "infrared-thermometers",
+        "name": "Infrared Thermometers - Grainger Industrial Supply",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "infrared-temperature-measurement",
+        "name": "Infrared Temperature Measurement",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "WESTWARD-Infrared-Thermometer-54TZ29-54TZ29",
+        "name": "WESTWARD, 54TZ29, Avg/Difference/Max Temp/Min ...",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "TAYLOR-Infrared-Thermometer-9523-14F320",
+        "name": "TAYLOR, 9523, Max Temp, Infrared Thermometer - 14F320",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "MASTERCOOL-Infrared-Thermometer-58NY98",
+        "name": "Infrared Thermometer,Case",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "indoor-air-quality-testing",
+        "name": "Indoor Air Quality Testing",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "air-quality-sensors",
+        "name": "Air Quality Sensors - Grainger Industrial Supply",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "EXTECH-Indoor-Air-Quality-Meter-Calculates-9XJ81",
+        "name": "EXTECH Indoor Air Quality Meter: Calculates Averages ...",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "indoor-air-quality-testers",
+        "name": "Indoor Air Quality Testers",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "pressure-vacuum-gauges",
+        "name": "Pressure & Vacuum Gauges - Grainger Industrial Supply",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "low-pressure-gauges",
+        "name": "Low Pressure Gauges",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "liquid-level-altitude-pressure-gauges",
+        "name": "Liquid-Level Altitude Pressure Gauges",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "pressure-gauges-with-diaphragm-seal-for-challenging-medias",
+        "name": "Pressure Gauges with Diaphragm Seal for Challenging ...",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "digital-industrial-process-pressure-gauges",
+        "name": "Digital Industrial & Process Pressure Gauges",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "sound-level-meters-kits",
+        "name": "Sound Level Meters & Kits",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "sound-testing",
+        "name": "Sound Testing - Grainger Industrial Supply",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "EXTECH-Sound-Level-Meter-with-Backlit-817MC0",
+        "name": "EXTECH Sound Level Meter: 35 dB ...",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "REED-INSTRUMENTS-Sound-Level-Meter-30-dB-911DE3",
+        "name": "REED INSTRUMENTS, 30 dB, 30 dB to 130 dB, Sound Level Meter",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "multifunction-environmental-meters?attrs=Properties+Measured%7CSound+Level&filters=attrs",
+        "name": "Sound Level Multifunction Environmental Meters",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "tachometers",
+        "name": "Tachometers - Grainger Industrial Supply",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "SHIMPO-Tachometer-0-05-of-Reading-411H03",
+        "name": "SHIMPO, +/-0.05% of Reading +1 Digit RPM Accuracy, 0.1 ...",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "SHIMPO-Tachometer-0-006-RPM-Accuracy-21YD66",
+        "name": "SHIMPO, +/-0.006% RPM Accuracy, 1 RPM, Tachometer",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "EXTECH-Laser-Tachometer-0-05-of-Reading-41D940",
+        "name": "EXTECH, +/-0.05% of Reading +1 Digit RPM Accuracy ...",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "REED-INSTRUMENTS-Combination-Tachometer-0-05-161A95",
+        "name": "0.05% RPM Accuracy, 0.1 RPM, Combination Tachometer",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "data-recording",
+        "name": "Data Recording",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "electrical-properties-data-loggers",
+        "name": "Electrical Properties Data Loggers",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "nonelectrical-properties-data-loggers",
+        "name": "Nonelectrical Properties Data Loggers",
+        "price": 249.99,
+        "category": "test_instruments",
+        "specs": {
+          "usage": "diagnostics"
+        },
+        "compatibility_tags": [
+          "testing"
+        ]
+      },
+      {
+        "id": "cold-storage-locks-alarms-accessories?attrs=Product+Type%7CUSB+Digital+Data+Logger&filters=attrs",
+        "name": "USB Digital Data Logger Cold Storage Locks, Alarms & ...",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "pipe-inspection-cameras-monitors",
+        "name": "Pipe Inspection Cameras & Monitors",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "borescopes",
+        "name": "Video & Rigid Boroscopes - Borescopes",
+        "price": 49.99,
+        "category": "safety",
+        "specs": {
+          "type": "ppe"
+        },
+        "compatibility_tags": [
+          "ppe",
+          "workplace_safety"
+        ]
+      },
+      {
+        "id": "MILWAUKEE-Inspection-Camera-480-x-272-801NK8",
+        "name": "MILWAUKEE, 480 x 272, 4 ft Shaft Lg, Inspection Camera",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "TRIPLETT-Inspection-Camera-1920-x-1080-792RJ7",
+        "name": "1920 x 1080, 16 1/2 ft Shaft Lg, Inspection Camera",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
+      },
+      {
+        "id": "MILWAUKEE-Inspection-Camera-480-x-272-801NK9",
+        "name": "MILWAUKEE, 480 x 272, 10 ft Shaft Lg, Inspection Camera",
+        "price": 299.99,
+        "category": "security",
+        "specs": {
+          "type": "facility_security"
+        },
+        "compatibility_tags": [
+          "security",
+          "access_control"
+        ]
       }
     ]
   }
 }
-
