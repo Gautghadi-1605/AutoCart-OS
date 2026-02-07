@@ -4,8 +4,9 @@ providers = ["python"]
     PORT = "8000"
 
 [phases.install]
+    # This MUST be here to override the npm install command
     cmds = ["pip install -r requirements.txt"]
 
 [start]
-    # Changed 'main:app' to 'api:app' to match your file name
+    # Using api:app since your screenshot shows the code is in api.py
     cmd = "uvicorn api:app --host 0.0.0.0 --port 8000"
