@@ -1,5 +1,5 @@
-[providers]
-    python = {}
+# Use a sequence (list) for providers
+providers = ["python"]
 
 [variables]
     PORT = "8000"
@@ -8,6 +8,7 @@
     nixPkgs = ["python311", "gcc"]
 
 [phases.install]
+    # This explicitly overrides the failing "npm install"
     cmds = ["pip install -r requirements.txt"]
 
 [start]
